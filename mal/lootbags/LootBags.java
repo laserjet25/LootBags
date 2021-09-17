@@ -47,11 +47,11 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-@Mod(modid = LootBags.MODID, version = LootBags.VERSION, dependencies="required:forge@[14.23.4.2703,);after:mystcraft")
+@Mod(modid = LootBags.MODID, version = LootBags.VERSION, dependencies="required:forge@[36.2.4]")
 public class LootBags {
 	public static final String MODID = "lootbags";
-	public static final String VERSION = "2.5.8.5";
-	public static final String CONFIGVERSION = "CONFIGVER257";
+	public static final String VERSION = "0.1";
+	public static final String CONFIGVERSION = "CONFIGVER1";
 	public static boolean configMismatch = true;//gets falsed if the bag config has the right version
 	
 	public static int SPECIALDROPCHANCE = 250;
